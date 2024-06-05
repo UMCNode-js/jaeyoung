@@ -27,15 +27,4 @@ async function checkDBConnection() {
   checkDBConnection();
 
 
-// // connection pool 상태 확인  
-// async function checkConnectionPoolStatus() {
-//     try {
-//       const poolStatus = await pool.getConnection();
-//       console.log('Connection Pool Status:', poolStatus);
-//       poolStatus.release();
-//     } catch (error) {
-//       console.error('Error checking Connection Pool status:', error);
-//     }
-//   }
-  
-//   checkConnectionPoolStatus();
+
