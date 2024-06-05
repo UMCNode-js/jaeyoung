@@ -8,7 +8,7 @@ export const pool = mysql.createPool({
     user: process.env.DB_USER || 'root', 
     port: process.env.DB_PORT || 3306, 
     database: process.env.DB_TABLE || 'nodebird', 
-    password: process.env.DB_PASSWORD || 'jybtob0321^^', 
+    password: process.env.DB_PASSWORD || 'password', 
     waitForConnections: true,
     connectionLimit: 10,       
     queueLimit: 0,             
